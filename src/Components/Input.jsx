@@ -5,23 +5,16 @@ const Input = ()=>{
     const [email, setEmail]= useState("");
     const [message, setMessage]= useState("");
     const [check, setCheck]= useState(false);
-    
-    function nameHandler(event){
-
-    }
+  
     
     const handleSubmit =(event)=>{
         event.preventDefault();
-    if(name === '' && lastName === '' && email === '' && message === '' && check === false) {
+    if(name === ' ' || lastName === '' || email === '' || message === '' || check === false) {
         alert('please fill form appropriately')
     }else {
         alert('Message sent')
     }
-    setName = "";
-    setLastName = "";
-    setEmail = "";
-    setMessage = "";
-    setCheck = false
+  
 
     }
 return(
@@ -56,7 +49,7 @@ return(
                 <textarea id="message" rows="6" placeholder="Send me a message and I'll reply you as soon as possible.." value={message}  onChange={(e)=> setMessage(e.target.value)} ></textarea>
                 <div className="subText">
                     <div>
-                    <input  type="checkbox"  onChange={(e)=> setCheck(!check)}/>
+                    <input  type="checkbox"  onChange={(e)=> setCheck(true)}/>
                     </div>
                     <div>
                     <p id="textareatext">  You agree to providing your data to Joy Onweani who may contact you.</p>
