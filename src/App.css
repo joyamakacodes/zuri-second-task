@@ -1,0 +1,240 @@
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ .App {
+  font-family: 'Inter', sans-serif;
+} 
+.container{
+  text-align: center;
+  margin: 20px 50px 0;
+}
+.header{
+  margin: 5px 0;
+}
+h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 3px 0;
+}
+.linksSocialContainer{
+  margin: 40px;
+}
+button{
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  background-color: #EAECF0;
+  margin: 15px 0; 
+  font-size: 15px;
+}
+
+.profile{
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  position: relative;
+}
+.hamburger{
+  display: none;
+}
+.avatar{
+  position: absolute;
+  right: 208px;
+  top: -5px;
+}
+#profile__img{
+  border-radius: 100%;
+  width: 88px;
+  height: 88px;
+}
+#slack{
+  display: none;
+}
+.link{
+  text-align: center;
+  width: 100%;
+ box-sizing: border-box;
+  margin: 10px 0;
+  padding: 10px;
+  background: #EAECF0;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.socials{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 20px 0;
+
+}
+/* Footer */
+.footer{
+  margin: 65px 60px 0;
+}
+#footerlogo{
+  width: 150px;
+}
+.footerContainer{
+  display: flex;
+  justify-content: space-between;
+}
+/* Contact Me Page */
+.contactBody{
+  padding-bottom: 30px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputCon{
+  display: flex;
+  column-gap: 20px;
+}
+form{
+  box-sizing: border-box;
+  font-size: 14px;
+}
+label{
+  font-weight: bolder;
+}
+input{
+  outline: none;
+}
+.input{
+  width: 328px;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+}
+.contact textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  outline: none;
+
+}
+.contact p{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+#textareatext{
+  font-size: 14px;
+}
+.contact h2{
+  margin: 10px 0;
+}
+#email{
+  width: 100%;
+  padding: 10px;
+}
+
+.formContainer{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px ;
+}
+.subText{
+  display: flex;
+  column-gap: 10px;
+}
+form button{
+  width: 100%;
+  background: #1570EF;
+  border: none;
+  padding: 10px 30px;
+  margin: 10px 0;
+  border-radius: 8px;
+  color: white;
+}
+
+@media only screen and (max-width:650px){
+  .App{
+    height: 900px;
+  }
+  .container{
+    margin: 40px 0;
+    
+  }
+  .footerContainer{
+    flex-direction: column;
+    font-size: 14px;
+  }
+  .footer{
+    margin: 70px 0 0;
+    padding: 5px;
+  }
+  .footer p{
+    margin: 10px 0;
+  }
+  .socials{
+    margin-top: 20px;
+  }
+  .avatar{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: -10px;
+  }
+  h3{
+    margin: 10px 0;
+  }
+  #footerlogo{
+    width: 99px;
+  }
+  button{
+    width: 80%;
+    margin: 30px 0; 
+    box-sizing: border-box;
+  }
+  .linksSocialContainer{
+    margin: 40px 0;
+  }
+  .link{
+    margin: 15px 0;
+    padding: 20px;
+  }
+  .contact{
+    margin: 10px;
+  }
+  .contactPara{
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .contact h2{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .formContainer{
+    width: 100%;
+  }
+  .inputCon{
+    display: block;
+  }
+  .input{
+    width: 100%;
+  }
+  /* div{
+    border: 2px solid red;
+  } */
+  
+}
+
+
+
