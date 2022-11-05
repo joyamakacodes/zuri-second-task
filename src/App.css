@@ -123,6 +123,7 @@ input{
   border-radius: 8px;
   border: 1px solid #D0D5DD;
   outline: none;
+  resize: none;
 
 }
 .contact p{

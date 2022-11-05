@@ -7,8 +7,8 @@ const Input = ()=>{
     const [check, setCheck]= useState(false);
   
     
-    const handleSubmit =(event)=>{
-        event.preventDefault();
+    const handleSubmit =()=>{
+        // event.preventDefault();
     if(name === ' ' || lastName === '' || email === '' || message === '' || check === false) {
         alert('please fill form appropriately')
     }else {
