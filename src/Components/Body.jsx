@@ -56,7 +56,7 @@ const Body= ()=>{
                      </button>
                      </a>
                 ))}
-                <Link to= 'Contact' id="contact" className="link"><button>Contact</button> </Link>
+                <Link to= 'Contact' id="contact" className="link"><button>Contact Me</button> </Link>
         
             <div className="socials">
             <img src={Image3} alt="zuriSlack" />
