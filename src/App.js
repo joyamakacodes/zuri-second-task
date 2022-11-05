@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './Screens/Home';
-import Contact from './Screens/contact'
+import Contact from './Screens/Contact'
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
